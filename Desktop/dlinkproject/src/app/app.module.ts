@@ -8,6 +8,10 @@ import { RegisterComponent } from './pages/register/register.component';
 import { CardsComponent } from './pages/cards/cards.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { AppRoutingModule } from './app.routing.module';
+import { HeaderComponent } from './component/header/header.component';
+import { CardComponent } from './component/card/card.component';
+import { FilterComponent } from './component/filter/filter.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { AppRoutingModule } from './app.routing.module';
     LoginComponent,
     RegisterComponent,
     CardsComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    HeaderComponent,
+    CardComponent,
+    FilterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
